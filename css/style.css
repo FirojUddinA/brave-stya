@@ -1,0 +1,1801 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette|Kalam:400,700|Lato:400,700|Lemonada:400,600,700|Open+Sans:400,600,700|Roboto+Condensed:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courgette|Kalam:400,700|Lato:400,700|Lemonada:400,600,700|Open+Sans:400,600,700|Roboto+Condensed:400,700|Poppins:400,700&display=swap");
+/* line 21, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 27, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* line 32, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+html ul li {
+  list-style: none;
+}
+
+/* line 37, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* line 42, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+h1 {
+  font-size: 40px;
+}
+
+/* line 46, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+h2 {
+  font-size: 32px;
+}
+
+/* line 50, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+h3 {
+  font-size: 28px;
+}
+
+/* line 54, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+h4 {
+  font-size: 24px;
+}
+
+/* line 58, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+h5 {
+  font-size: 20px;
+}
+
+/* line 62, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+h6 {
+  font-size: 16px;
+}
+
+/* line 66, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+p,
+span,
+a {
+  font-size: 16px;
+}
+
+/* line 71, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.section {
+  padding: 5rem 0;
+}
+
+/* line 75, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.action-btn {
+  background: #FF2D55;
+  border-radius: 2rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  padding: .5rem 1.5rem;
+}
+
+/* line 83, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.common-button {
+  background: #FF2D55;
+  border-radius: 0;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  padding: .5rem 1.5rem;
+  box-shadow: none;
+  margin: 1rem	 0 0;
+}
+
+/* line 93, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.form-control {
+  margin: .5rem 0;
+}
+
+/* line 97, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #FF2D55;
+}
+
+/* line 101, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a.buy {
+  border-color: #FF2D55;
+}
+
+/* line 104, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a.buy:hover {
+  background-color: transparent;
+  border-color: #5e5e5e;
+}
+
+/* line 111, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a.download {
+  background-color: transparent;
+}
+
+/* line 114, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a.download:hover {
+  background-color: #FF2D55;
+  border-color: #FF2D55;
+}
+
+/* line 120, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a.more {
+  border-color: #FF2D55;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+}
+
+/* line 125, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+a.more:hover {
+  background-color: transparent;
+  border-color: #5e5e5e;
+}
+
+/* line 130, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scrolled {
+  background-color: rgba(28, 28, 28, 0.88);
+  transition: padding 1s ease-in-out;
+}
+
+/* line 133, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scrolled .navbar-brand {
+  height: 70px;
+}
+
+/* line 138, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scrolled ul#nav li a {
+  padding: 30px 10px;
+}
+
+/* line 141, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scrolled ul#nav li a.sub_menu_link {
+  padding: 30px 20px 30px 10px;
+}
+
+/* line 149, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.section-content {
+  margin-top: 2.5rem;
+}
+
+/* line 152, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header {
+  background-color: transparent;
+  border-bottom: 1px solid #5b5b5b;
+}
+
+/* line 157, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-brand {
+  padding: 0;
+  box-shadow: none;
+}
+
+/* line 161, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-brand span {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+/* line 166, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-brand .first-brand {
+  color: #FF2D55;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+/* line 172, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-brand .last-brand {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 181, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  line-height: 82px;
+}
+
+/* line 190, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-nav .nav-item:hover .nav-link {
+  color: #FF2D55;
+}
+
+/* line 195, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-nav .nav-item.active {
+  position: relative;
+}
+
+/* line 198, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-nav .nav-item.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background: #FF2D55;
+}
+
+/* line 212, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  padding: .5rem;
+  margin: 0;
+  display: block;
+}
+
+/* line 222, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+  background: #FF2D55;
+  color: #ffffff;
+}
+
+/* line 233, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+header nav .action-btn {
+  background: #FF2D55;
+  border-radius: 2rem;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  padding: .5rem 1.5rem;
+}
+
+/* line 246, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay {
+  position: relative;
+}
+
+/* line 249, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-img img {
+  height: 350px;
+  width: 100%;
+}
+
+/* line 254, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 0.9);
+}
+
+/* line 263, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 267, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 273, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content .page-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+/* line 279, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content .page-status {
+  text-align: center;
+}
+
+/* line 281, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content .page-status a {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* line 285, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content .page-status a:hover {
+  color: #FF2D55;
+}
+
+/* line 289, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content .page-status i {
+  color: #ffffff;
+  margin: 0 8px;
+}
+
+/* line 293, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#banner .banner-overlay .banner-content .page-heading .heading-content .page-status .page-active {
+  color: #FF2D55;
+}
+
+/* line 303, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner {
+  margin-top: -100px;
+  height: 800px;
+  background: linear-gradient(to right, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url("../img/meeting.jpg") no-repeat scroll center top;
+  background-size: cover;
+}
+
+/* line 309, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner .carousel-item {
+  height: 800px;
+}
+
+/* line 312, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner .carousel-item .carousel-caption {
+  text-align: left;
+  top: 40%;
+}
+
+/* line 316, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner .carousel-item .carousel-caption h3.slider-subtitle {
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #FF2D55;
+}
+
+/* line 325, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner .carousel-item .carousel-caption h2.slider-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 332, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner .carousel-item .carousel-caption p.slider-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+/* line 337, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#home_banner .carousel-item .carousel-caption a {
+  border: 1px solid #5e5e5e;
+  padding: .8rem 2.5rem;
+  color: #ffffff;
+}
+
+/* line 348, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.heading {
+  text-align: center;
+}
+
+/* line 351, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.heading h3.subtitle {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #FF2D55;
+  font-style: italic;
+}
+
+/* line 361, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.heading h2.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+/* line 369, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.heading p.text {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  max-width: 700px;
+  margin: 1rem auto;
+  display: block;
+}
+
+/* line 379, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .heading {
+  text-align: left;
+}
+
+/* line 383, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content {
+  margin-top: 2.5rem;
+}
+
+/* line 386, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content a.action-btn {
+  border: 1px solid rgba(138, 138, 138, 0.59);
+  padding: .8rem 2.5rem;
+  color: #ffffff;
+}
+
+/* line 392, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content a.buy {
+  border-color: #FF2D55;
+}
+
+/* line 395, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content a.buy:hover {
+  background-color: transparent;
+  border-color: rgba(138, 138, 138, 0.59);
+  color: #000000;
+}
+
+/* line 403, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content a.download {
+  background-color: transparent;
+  color: #000000;
+}
+
+/* line 407, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content a.download:hover {
+  background-color: #FF2D55;
+  border-color: #FF2D55;
+  color: #ffffff;
+}
+
+/* line 414, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content p {
+  margin-bottom: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #545454;
+}
+
+/* line 420, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content .video {
+  position: relative;
+}
+
+/* line 423, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content .video img {
+  width: 100%;
+}
+
+/* line 427, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#about_section .section-content .video .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #3947ff;
+  text-align: center;
+  margin: -40px 0 0 -40px;
+  border-radius: 80px;
+  width: 80px;
+  height: 80px;
+  color: #ffffff;
+  font-size: 22px;
+  vertical-align: center;
+  padding-top: 23px;
+}
+
+/* line 447, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#event_section {
+  background: linear-gradient(to right, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url("../img/event_section-coundown.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 452, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#event_section h2.title {
+  color: #ffffff;
+}
+
+/* line 456, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#event_section p.text {
+  color: #ffffff;
+}
+
+/* line 460, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#event_section .section-content {
+  color: #ffffff;
+}
+
+/* line 468, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule {
+  box-shadow: 0 0 10px rgba(51, 51, 51, 0.64);
+  margin-top: 3rem;
+}
+
+/* line 472, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule-date {
+  text-align: center;
+  padding: 2rem;
+  background: #0D80F6;
+}
+
+/* line 477, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule-date h3 {
+  font-weight: 500;
+  color: #dddddd;
+}
+
+/* line 483, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule {
+  padding-bottom: 30px;
+}
+
+/* line 485, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list {
+  display: flex;
+  align-items: center;
+  padding: .5rem 0;
+  border-bottom: 1px solid rgba(147, 147, 147, 0.49);
+}
+
+/* line 491, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list div {
+  padding: .5rem;
+}
+
+/* line 496, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .lecturer-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 502, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .lecture-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* line 508, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .lecture-details h5 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* line 513, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .lecture-details p {
+  margin: 0;
+}
+
+/* line 516, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .lecture-details p a {
+  color: #FF2D55;
+}
+
+/* line 522, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .lecture-details .lecture-time p {
+  margin: 0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+/* line 531, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .h2-lecture-details {
+  padding: 0;
+}
+
+/* line 533, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .h2-lecture-details h5 {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* line 539, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .h2-lecture-details p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* line 543, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .h2-lecture-details p a {
+  color: #FF2D55;
+}
+
+/* line 548, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .h2-lecture-details .lecture-time {
+  padding: 0;
+}
+
+/* line 550, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#schedule_section .section-content .conference-schedule .schedule .schedule-list .h2-lecture-details .lecture-time p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+/* line 566, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section {
+  background: linear-gradient(to right, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url("../img/event_section-coundown.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 571, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .heading .title {
+  color: #ffffff;
+}
+
+/* line 575, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .heading .text {
+  color: #ffffff;
+}
+
+/* line 583, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue:hover {
+  background: #fff;
+}
+
+/* line 587, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue:hover .venue-details h3 {
+  color: #FF2D55;
+}
+
+/* line 592, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue:hover .venue-details p {
+  color: #000000;
+}
+
+/* line 598, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue .venue-img {
+  position: relative;
+}
+
+/* line 601, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue .venue-img img {
+  width: 100%;
+}
+
+/* line 605, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue .venue-img .venue-place {
+  position: absolute;
+  top: 20px;
+  right: 5%;
+  background: #6027ff;
+  padding: .5rem 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 617, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue .venue-details {
+  padding: 1rem;
+  border: 1px solid #999999;
+  border-top: none;
+}
+
+/* line 623, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue .venue-details h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+/* line 631, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .venues .venue .venue-details p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+
+/* line 640, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .owl-dots {
+  display: none;
+}
+
+/* line 644, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .owl-nav {
+  position: relative;
+}
+
+/* line 647, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .owl-nav .owl-prev {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background: #FF2D55;
+  border-radius: 40px;
+  position: absolute;
+  top: -250px;
+  left: -100px;
+}
+
+/* line 658, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .owl-nav .owl-prev span {
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+/* line 666, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .owl-nav .owl-next {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background: #FF2D55;
+  border-radius: 40px;
+  position: absolute;
+  top: -250px;
+  right: -100px;
+}
+
+/* line 677, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#venue_section .owl-nav .owl-next span {
+  font-size: 2rem;
+  color: #ffffff;
+  line-height: 28px;
+}
+
+/* line 689, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#uc_event_section .up-coming-event {
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+
+/* line 694, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#uc_event_section .up-coming-event:hover .event-text {
+  height: 100%;
+  opacity: 1;
+  bottom: 0;
+  cursor: pointer;
+}
+
+/* line 701, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#uc_event_section .up-coming-event .event-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  height: 0;
+  transition: .5s;
+  opacity: 0;
+}
+
+/* line 714, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#uc_event_section .up-coming-event .event-text .name {
+  margin-top: 25%;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-bottom: 0;
+  transition: 1.5s;
+}
+
+/* line 724, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#uc_event_section .up-coming-event .event-text a {
+  color: #FF2D55;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+/* line 735, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section {
+  background: linear-gradient(to right, rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url("../img/reviewbgf.jpg") no-repeat fixed center center;
+  background-size: cover;
+}
+
+/* line 740, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .heading h2.title {
+  color: #ffffff;
+}
+
+/* line 744, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .heading p.text {
+  color: #ffffff;
+}
+
+/* line 751, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial {
+  padding: 2rem 0;
+}
+
+/* line 755, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-review {
+  margin-bottom: 30px;
+}
+
+/* line 756, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-review i {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+/* line 761, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-review p {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 769, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 774, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-img img {
+  margin-right: 1rem;
+  width: 60px;
+  height: 60px;
+}
+
+/* line 781, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-img .client-details a.client-name {
+  color: #ffffff;
+}
+
+/* line 784, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-img .client-details a.client-name h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* line 789, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-img .client-details a.client-name:hover {
+  color: #FF2D55;
+}
+
+/* line 794, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#clients_section .section-content .testimonial .client .client-img .client-details .desig {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+/* line 807, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker {
+  margin-top: 3rem;
+}
+
+/* line 810, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-img {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 814, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-img img {
+  width: 100%;
+}
+
+/* line 818, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-img .s-social-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+}
+
+/* line 827, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-img .s-social-link .social-links {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  text-align: center;
+  transition: .5s;
+}
+
+/* line 836, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-img .s-social-link .social-links a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 3px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+/* line 851, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-details {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* line 856, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-details a h5 {
+  color: #000000;
+  font-weight: bold;
+  transition: .3s;
+}
+
+/* line 862, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-details a:hover h5 {
+  color: #FF2D55;
+}
+
+/* line 867, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker .s-details p {
+  color: #000000;
+}
+
+/* line 873, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker:hover .s-social-link {
+  background: rgba(40, 40, 40, 0.79);
+}
+
+/* line 876, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#speaker_section .speakers .speaker:hover .s-social-link .social-links {
+  bottom: 20px;
+}
+
+/* line 887, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section {
+  background: #F4F4F4;
+}
+
+/* line 891, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section .sponsor .gold-sponsor {
+  margin-top: 3rem;
+}
+
+/* line 894, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section .sponsor .gold-sponsor h3 {
+  font-weight: bold;
+}
+
+/* line 898, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section .sponsor .gold-sponsor img {
+  margin: 2rem 1rem;
+}
+
+/* line 903, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section .sponsor .silver-sponsor {
+  margin-top: 3rem;
+}
+
+/* line 906, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section .sponsor .silver-sponsor h3 {
+  font-weight: bold;
+}
+
+/* line 910, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#sponsor_section .sponsor .silver-sponsor img {
+  margin: 2rem 1rem;
+}
+
+/* line 918, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses {
+  display: block;
+  box-shadow: 0 0 2px rgba(51, 51, 51, 0.49);
+  margin-top: 50px;
+}
+
+/* line 924, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-img {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 928, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-img img {
+  width: 100%;
+  transition: .5s;
+}
+
+/* line 933, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-img p.news-publish {
+  position: absolute;
+  left: 4%;
+  bottom: 0;
+  background: #0110ee;
+  padding: .5rem 1.5rem;
+  border-radius: 2rem;
+  font-family: "Poppins", sans-serif;
+  transition: .5s;
+}
+
+/* line 945, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-details {
+  padding: 1rem;
+}
+
+/* line 948, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-details h3 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  transition: .5s;
+}
+
+/* line 956, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-details .details {
+  display: flex;
+}
+
+/* line 959, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-details .details p {
+  color: #000000;
+  margin-right: 5px;
+}
+
+/* line 965, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-details p.text {
+  color: #555555;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 970, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses .news .news-details p.mor {
+  color: #FF2D55;
+}
+
+/* line 976, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses:hover {
+  box-shadow: 0 0 15px rgba(136, 136, 136, 0.6);
+}
+
+/* line 979, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses:hover .news-details h3 {
+  color: #FF2D55;
+}
+
+/* line 983, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#blog_section .newses:hover img {
+  transform: scale(1.2);
+}
+
+/* line 990, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/footer-bg.png") no-repeat center top scroll;
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 997, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .widget .widget-title {
+  font-size: 1.5rem;
+}
+
+/* line 1001, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .widget .widget-content {
+  margin-top: 2rem;
+}
+
+/* line 1007, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .sub-widget .sub-widget-title {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 1015, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .logo-brand {
+  padding: 0;
+  box-shadow: none;
+}
+
+/* line 1019, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .logo-brand span {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+/* line 1024, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .logo-brand .first-brand {
+  color: #FF2D55;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
+
+/* line 1030, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .logo-brand .last-brand {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* line 1038, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .useful-link a {
+  display: block;
+  font-size: 17px;
+  margin: .5rem 0;
+}
+
+/* line 1045, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .instagram-img {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* line 1050, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .instagram-img a {
+  display: inline-block;
+}
+
+/* line 1056, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .f-social-link a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 3px;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 30px;
+}
+
+/* line 1071, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .contact-details .contact-info {
+  display: flex;
+  margin: .5rem 0;
+}
+
+/* line 1075, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .contact-details .contact-info .icon {
+  margin-right: 10px;
+  color: #FF2D55;
+}
+
+/* line 1081, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .contact-details .contact-info a:hover {
+  color: #FF2D55;
+}
+
+/* line 1088, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .subscribe {
+  margin-top: 2rem;
+  padding: .5rem;
+}
+
+/* line 1096, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .subscribe .input-group-append .input-group-text {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1100, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer .subscribe .input-group-append .input-group-text input[type="submit"] {
+  border: none;
+  background: #FF2D55;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* line 1114, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+footer.section {
+  padding-bottom: 0;
+}
+
+/* line 1118, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.footer-bottom {
+  padding: 1rem	0;
+  background: rgba(0, 0, 0, 0.74);
+}
+
+/* line 1121, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.footer-bottom .footer-bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 1125, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.footer-bottom .footer-bottom-content p {
+  margin-bottom: 0;
+}
+
+/* line 1136, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scroll-top {
+  position: fixed;
+  bottom: 4%;
+  right: 4%;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  transition: .5s;
+}
+
+/* line 1147, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scroll-top i {
+  line-height: 55px;
+  font-size: 28px;
+}
+
+/* line 1151, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.scroll-top:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background: #FF2D55;
+}
+
+/* line 1158, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.p-pagination {
+  margin-top: 2rem;
+}
+
+/* line 1162, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.p-pagination .pagination .disabled .page-link {
+  color: #999999 !important;
+}
+
+/* line 1166, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.p-pagination .pagination .p-active {
+  background: #FF2D55;
+}
+
+/* line 1168, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.p-pagination .pagination .p-active .page-link {
+  color: #ffffff !important;
+}
+
+/* line 1173, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.p-pagination .pagination .page-item .page-link {
+  color: #000000;
+  border: 1px solid #ddd;
+}
+
+/* line 1176, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+.p-pagination .pagination .page-item .page-link:hover {
+  background: #FF2D55;
+}
+
+/* line 1186, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us {
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 1190, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info h4 {
+  font-size: 18px;
+}
+
+/* line 1193, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* line 1197, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info p {
+  font-size: 15px;
+}
+
+/* line 1200, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info .info-content, #Contact_us .contact-info .location, #Contact_us .contact-info .phone, #Contact_us .contact-info .mail {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center;
+}
+
+/* line 1204, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info .info-content h3, #Contact_us .contact-info .location h3, #Contact_us .contact-info .phone h3, #Contact_us .contact-info .mail h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 1208, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info .info-content p, #Contact_us .contact-info .location p, #Contact_us .contact-info .phone p, #Contact_us .contact-info .mail p {
+  font-size: 15px;
+}
+
+/* line 1214, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-info .info-img i {
+  font-size: 2rem;
+  text-align: left;
+  width: 50px;
+  height: 50px;
+  color: #FF2D55;
+}
+
+/* line 1234, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-form h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* line 1240, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#Contact_us .contact-form .main-contact-form .form-control {
+  margin: .8rem 0;
+  outline: none !important;
+  line-height: 18px;
+  font-size: 18px;
+}
+
+/* line 1250, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#map {
+  margin-bottom: -5px;
+}
+
+/* line 1254, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#become_sponser {
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 1265, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-styles.scss */
+#become_sponser .sponser-form .action-btn {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+}
+
+/* line 3, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#gallery_section {
+  background: #f4f4f4;
+}
+
+/* line 7, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#gallery_section .galleries figure:first-child {
+  padding-top: 0;
+}
+
+/* line 13, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+.center, #price_section .price-table .package .p-name, #price_section .price-table .package .p-price, #price_section .price-table .package .p-details {
+  text-align: center;
+}
+
+/* line 18, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package {
+  margin-top: 3rem;
+  box-shadow: 0 0 10px rgba(153, 153, 153, 0.59);
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 20, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package:hover .p-price {
+  background: #FF2D55;
+  color: #fff;
+}
+
+/* line 23, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package:hover .p-price h2 {
+  color: #fff;
+}
+
+/* line 28, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package:hover a.buy-package {
+  background: #FF2D55;
+  color: #ffffff;
+}
+
+/* line 36, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-name {
+  padding: 1rem 0;
+}
+
+/* line 40, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-name h4 {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 44, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-name p {
+  margin: 0;
+}
+
+/* line 48, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-price {
+  background: #f1f1f1;
+  padding: 1rem 0;
+  transition: .5s;
+}
+
+/* line 53, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-price h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 58, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-price p {
+  margin: 0;
+}
+
+/* line 63, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-details {
+  padding: 1rem .5rem 2rem;
+}
+
+/* line 66, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-details .details {
+  text-align: left;
+}
+
+/* line 68, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-details .details i {
+  margin-right: 5px;
+}
+
+/* line 72, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#price_section .price-table .package .p-details a.buy-package {
+  margin: 0 auto;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+/* line 87, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#purchase_now {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/purches.jpg") fixed top center no-repeat;
+  background-size: cover;
+}
+
+/* line 90, L:/Freelancer/FIROJ/Brave_Sty/scss/_home2.scss */
+#purchase_now .pn-text {
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 36px;
+  max-width: 600px;
+  margin: 1rem auto;
+  line-height: 1.4;
+}
+
+/* line 2, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about_event_section .about_event_content {
+  transition: .5s;
+}
+
+/* line 6, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about_event_section .about_event_content:hover .icon-img img {
+  transform: rotateY(180deg);
+}
+
+/* line 12, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about_event_section .about_event_content .icon-img img {
+  transition: .5s;
+}
+
+/* line 17, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about_event_section .about_event_content h3 {
+  margin-top: 24px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 23, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about_event_section .about_event_content p {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 29, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about {
+  overflow: hidden;
+}
+
+/* line 32, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about .row .col-lg-3, #about .row .col-md-6 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 37, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about .row .col-lg-3 img, #about .row .col-md-6 img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 42, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about .row .col-lg-3 .event-overview, #about .row .col-md-6 .event-overview {
+  color: #ffffff;
+  padding: 4rem 1.5rem;
+}
+
+/* line 45, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about .row .col-lg-3 .event-overview img, #about .row .col-md-6 .event-overview img {
+  width: auto;
+  margin: 1.5rem 0;
+}
+
+/* line 49, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about .row .col-lg-3 .event-overview h2, #about .row .col-md-6 .event-overview h2 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* line 54, L:/Freelancer/FIROJ/Brave_Sty/scss/_about.scss */
+#about .row .col-lg-3 .event-overview p, #about .row .col-md-6 .event-overview p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 1, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details {
+  font-family: "Poppins", sans-serif;
+}
+
+/* line 6, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .fetured-img img {
+  width: 100%;
+  max-width: 750px;
+  max-height: 460px;
+}
+
+/* line 13, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-date {
+  margin: 2rem 0 .5rem;
+}
+
+/* line 16, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-date p {
+  color: #000;
+  margin: 0;
+}
+
+/* line 23, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-title h1 {
+  font-size: 28px;
+  transition: .5s;
+}
+
+/* line 27, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-title h1:hover {
+  color: #FF2D55;
+}
+
+/* line 33, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-details {
+  margin-bottom: 1rem;
+}
+
+/* line 36, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-details span {
+  margin: 0 0.8rem;
+  color: #999;
+}
+
+/* line 40, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-details span i {
+  margin-right: .5rem;
+}
+
+/* line 44, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-details span:first-child {
+  margin-left: 0;
+}
+
+/* line 52, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .st {
+  padding: 2rem 0;
+  border-top: 1px solid #ddd;
+}
+
+/* line 56, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .st .dd {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 63, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-tags {
+  display: flex;
+  align-items: center;
+}
+
+/* line 69, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-tags h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* line 74, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-tags a {
+  color: #999;
+  margin: .1rem;
+  padding: .4rem .4rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+/* line 82, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-tags a:hover {
+  background: #FF2D55;
+  color: #fff;
+}
+
+/* line 90, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-share {
+  display: flex;
+  align-items: center;
+}
+
+/* line 94, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-share h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* line 99, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-share a {
+  color: #333;
+  margin: .2rem;
+  padding: .3rem;
+  transition: .5s;
+}
+
+/* line 105, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-share a:hover {
+  color: #FF2D55;
+}
+
+/* line 113, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt {
+  border-top: 1px solid #ddd;
+  padding: 2rem 0;
+}
+
+/* line 118, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments h3 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+/* line 125, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments p {
+  font-size: 15px;
+  margin-bottom: .5rem;
+}
+
+/* line 131, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments .comment-form .form-group {
+  margin-bottom: 0;
+}
+
+/* line 134, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments .comment-form .form-group .common-button {
+  padding: .6rem 2.5rem;
+}
+
+/* line 137, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments .comment-form .form-group .common-button:hover {
+  background: transparent;
+  color: #FF2D55;
+}
+
+/* line 145, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments .comment-form .form-control {
+  border-radius: 0;
+  margin: 1rem 0;
+  outline: none;
+  border-color: #ddd;
+}
+
+/* line 151, L:/Freelancer/FIROJ/Brave_Sty/scss/_blogdetails.scss */
+#blog_post_details .blog-post .post-communt .comments .comment-form .form-control:hover {
+  border-color: #FF2D55;
+}
+
+/* line 2, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget {
+  padding: 0 1rem;
+  border: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+/* line 7, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .sidebar-widget-title {
+  margin: 1.5rem 0 1rem;
+}
+
+/* line 8, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .sidebar-widget-title h3 {
+  font-weight: bold;
+}
+
+/* line 27, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .popular-post-widget .popular-post-widget-content {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+/* line 31, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .popular-post-widget .popular-post-widget-content .popular-post-widget-details {
+  margin-left: 10px;
+}
+
+/* line 34, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .popular-post-widget .popular-post-widget-content .popular-post-widget-details .publish-date {
+  margin-bottom: 0;
+  color: #FF2D55;
+  font-size: 14px;
+}
+
+/* line 42, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .popular-post-widget .popular-post-widget-content .popular-post-widget-details .post-title h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* line 57, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .category-widget .categories a {
+  color: #000;
+  display: block;
+  font-size: 18px;
+  padding: .5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 64, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .category-widget .categories a i {
+  margin-right: 5px;
+}
+
+/* line 68, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .category-widget .categories a:hover {
+  color: #FF2D55;
+}
+
+/* line 78, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .archive-widget ul.Archives li a {
+  color: #000;
+  display: block;
+  font-size: 18px;
+  padding: .5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 85, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .archive-widget ul.Archives li a i {
+  margin-right: 5px;
+}
+
+/* line 89, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .archive-widget ul.Archives li a:hover {
+  color: #FF2D55;
+}
+
+/* line 105, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .contact-widget .quick-contact-form .form-control {
+  margin: .8rem 0;
+}
+
+/* line 113, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .tag-widget .tags {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+/* line 116, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .tag-widget .tags a {
+  color: #999;
+  margin: .4rem;
+  padding: .4rem .4rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: .5s;
+  display: inline-block;
+}
+
+/* line 125, L:/Freelancer/FIROJ/Brave_Sty/scss/_sidebar.scss */
+.sidebar .sidebar-widget .tag-widget .tags a:hover {
+  background: #FF2D55;
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  /* line 16, L:/Freelancer/FIROJ/Brave_Sty/scss/_custom-media.scss */
+  nav .navbar-nav .nav-item .nav-link {
+    line-height: 30px !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
